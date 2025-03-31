@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require_relative "../lib/clean_arch"
+require "clean_arch"
 
 CleanArch::CLI.start(ARGV)
