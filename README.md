@@ -4,7 +4,7 @@
 gem install clean_arch
 
 # use app
-clean_app generate <name>
+clean_arch generate <name>
 ```
 
 TODO: Delete this and the text below, and describe your gem
