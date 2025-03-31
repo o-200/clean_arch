@@ -9,7 +9,7 @@ module Builder
   require 'roda'
 
   module Config
-    class #{project_name} < Roda
+    class Main < Roda
       plugin :json, classes: [Array, Hash]
 
       route do |r|

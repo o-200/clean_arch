@@ -10,7 +10,7 @@ module Builder
 
   DB = Config::Database::Connection.new.db
 
-  run #{project_name}
+  run Main
 HEREDOC
 
       FileUtils.mkdir_p(File.dirname(file_path))
